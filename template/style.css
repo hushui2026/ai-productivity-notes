@@ -1,0 +1,51 @@
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+  color: #1a1a1a;
+  background: #fff;
+  margin: 0;
+  line-height: 1.8;
+  font-size: 16px;
+}
+header, main, article, footer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 20px 16px;
+}
+header { text-align: center; padding-top: 40px; padding-bottom: 24px; border-bottom: 1px solid #eee; }
+header h1 { font-size: 26px; margin: 0 0 8px; }
+.tagline { color: #888; margin: 0; }
+
+.post-list { list-style: none; padding: 0; margin: 0; }
+.post-list li { padding: 18px 0; border-bottom: 1px solid #f0f0f0; }
+.post-list a { text-decoration: none; color: #1a1a1a; display: block; }
+.post-list a:hover .ptitle { color: #07c160; }
+.post-list .date { color: #999; font-size: 13px; display: block; margin-bottom: 4px; }
+.post-list .ptitle { font-size: 17px; font-weight: 600; }
+.post-list .excerpt { color: #666; font-size: 14px; margin: 6px 0 0; }
+
+article h1 { font-size: 24px; line-height: 1.4; margin: 0 0 8px; }
+.meta { color: #999; font-size: 13px; margin-bottom: 4px; }
+.keywords { margin-bottom: 24px; }
+.tag { display: inline-block; background: #f4f4f4; color: #666; padding: 2px 10px; border-radius: 10px; font-size: 12px; margin-right: 6px; }
+
+article p { margin: 16px 0; }
+article h2 { font-size: 20px; margin: 28px 0 12px; }
+article h3 { font-size: 17px; margin: 24px 0 10px; }
+article ul, article ol { padding-left: 20px; }
+article li { margin: 8px 0; }
+article code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-size: 14px; color: #c7254e; }
+article pre { background: #f6f8fa; border-radius: 6px; padding: 16px; overflow-x: auto; }
+article pre code { background: none; color: #333; padding: 0; }
+article strong { color: #1a1a1a; }
+article blockquote { border-left: 3px solid #07c160; margin: 16px 0; padding: 4px 16px; color: #666; background: #fafafa; }
+article img { max-width: 100%; border-radius: 6px; }
+article hr { border: none; border-top: 1px solid #eee; margin: 32px 0; }
+
+footer { text-align: center; color: #aaa; font-size: 13px; padding: 40px 16px 60px; border-top: 1px solid #eee; margin-top: 40px; }
+
+@media (max-width: 600px) {
+  body { font-size: 15px; }
+  article h1 { font-size: 21px; }
+  header h1 { font-size: 22px; }
+}

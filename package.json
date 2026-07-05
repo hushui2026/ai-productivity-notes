@@ -1,0 +1,12 @@
+{
+  "name": "ai-productivity-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI生产力空间 - GitHub Pages 站点",
+  "scripts": {
+    "build": "node build-site.js"
+  },
+  "dependencies": {
+    "marked": "^4.3.0"
+  }
+}
